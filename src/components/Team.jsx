@@ -22,16 +22,16 @@ const teamMembers = [
     tag: 'Captain',
   },
   {
-    name: 'Annlia Lixon',
+    name: 'Anmariya Nitheen',
     role: 'Vice Captain',
-    avatar: member8,
-    superpower: 'Unmatched peer empathy',
-    quote: 'Strength lies in our differences, unity in our smiles.',
+    avatar: member7,
+    superpower: 'Active listener & Support',
+    quote: 'A kind word can change someone\'s entire day, let\'s share it.',
     color: 'bg-lavender',
     tag: 'Vice Captain',
   },
   {
-    name: 'Aditya J Krishna',
+    name: 'Aditya Krishna J Nair',
     avatar: member1,
     superpower: 'Infectious laughter',
     quote: 'Bringing people together is my absolute favorite puzzle.',
@@ -52,7 +52,7 @@ const teamMembers = [
     color: 'bg-rose-200',
   },
   {
-    name: 'Amritha Murthi',
+    name: 'Amrita Murthi',
     avatar: member5,
     superpower: 'Empathy radar',
     quote: 'Empowerment happens when we show up for each other, daily.',
@@ -66,10 +66,10 @@ const teamMembers = [
     color: 'bg-freshGreen',
   },
   {
-    name: 'Anmariya Nitheen',
-    avatar: member7,
-    superpower: 'Active listener',
-    quote: 'A kind word can change someone\'s entire day, let\'s share it.',
+    name: 'Annlia Lixon',
+    avatar: member8,
+    superpower: 'Unmatched peer empathy',
+    quote: 'Strength lies in our differences, unity in our smiles.',
     color: 'bg-lavender',
   },
 ];
@@ -80,7 +80,7 @@ export default function Team() {
       <div className="absolute inset-0 bg-soft-blue-grad opacity-40 z-0 pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        
+
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-20">
           <div className="inline-block px-3 py-1 bg-lavender text-slate-800 font-poppins font-semibold text-sm rounded-full border-2 border-slate-800 shadow-[2px_2px_0px_0px_rgba(30,41,59,1)] mb-4">
@@ -133,7 +133,7 @@ export default function Team() {
                 >
                   😊
                 </motion.div>
-                
+
                 {/* Avatar Image with thick border */}
                 <div className="w-28 h-28 rounded-full border-3 border-slate-800 overflow-hidden bg-slate-100 transform group-hover:scale-105 group-hover:rotate-2 transition duration-300 shadow-md">
                   <img

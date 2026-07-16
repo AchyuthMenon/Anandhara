@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const notes = [
   {
-    author: 'Aditya J Krishna',
+    author: 'Aditya Krishna J Nair',
     text: 'Watching the sunrise with a hot cup of ginger tea and no alarm clocks.',
     color: 'bg-sunshineYellow',
     rotation: '-rotate-2',
@@ -24,7 +24,7 @@ const notes = [
     emoji: '🌧️',
   },
   {
-    author: 'Amritha Murthi',
+    author: 'Amrita Murthi',
     text: 'Seeing the bright smiles of students after they finish a trust-building game.',
     color: 'bg-skyBlue',
     rotation: 'rotate-3',
@@ -67,7 +67,7 @@ export default function HappinessWall() {
       <div className="absolute inset-0 bg-sunny-radial opacity-60 z-0 pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        
+
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="inline-block px-3 py-1 bg-lavender text-slate-800 font-poppins font-semibold text-sm rounded-full border-2 border-slate-800 shadow-[2px_2px_0px_0px_rgba(30,41,59,1)] mb-4">
@@ -90,8 +90,8 @@ export default function HappinessWall() {
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: idx * 0.08 }}
-              whileHover={{ 
-                scale: 1.05, 
+              whileHover={{
+                scale: 1.05,
                 rotate: 0,
                 zIndex: 10,
                 boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
@@ -100,7 +100,7 @@ export default function HappinessWall() {
             >
               {/* Pushpin design at the top */}
               <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-red-400 border-2 border-slate-800 rounded-full shadow" />
-              
+
               {/* Note Content */}
               <div className="mt-2 text-slate-800 font-poppins font-semibold italic text-base leading-relaxed">
                 "{note.text}"
