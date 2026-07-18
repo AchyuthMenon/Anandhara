@@ -1,41 +1,48 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Sparkles, Trophy, UserPlus, Users } from 'lucide-react';
+import { Heart, Sparkles, Trophy, UserPlus, Users, FileText, BookOpen } from 'lucide-react';
 
 const milestones = [
   {
-    title: 'Team Formation & Setup',
+    title: 'Team Formation & Alignment',
     date: 'Day 1',
-    desc: 'Six passionate minds came together to plant the seeds of Anandhara, mapping out the core themes of campus empowerment.',
+    desc: 'Our team came together to plant the seeds of Anandhara, mapping out the core themes of empowerment, resilience, and happiness.',
     icon: UserPlus,
     color: 'bg-sunshineYellow',
   },
   {
     title: 'Ice-Breaking & Trust Games',
     date: 'Day 1',
-    desc: 'We organized outdoor student bonding sessions, building solid trust networks and overcoming social anxiety.',
+    desc: 'Participated in interactive outdoor bonding sessions, trust exercises, and workshops to foster confidence and peer connections.',
     icon: Users,
     color: 'bg-skyBlue',
   },
   {
-    title: 'Core Empowerment Sessions',
-    date: 'Day 1',
-    desc: 'Running workshops focused on mindfulness, finding purpose, self-care routines, and building emotional strength.',
-    icon: Sparkles,
+    title: 'Reflecting on Learnings',
+    date: 'Day 2',
+    desc: 'Reviewed Day 1 teachings with a fun quiz, shared key learnings, and conducted an in-depth introspection form review.',
+    icon: BookOpen,
     color: 'bg-lavender',
   },
   {
-    title: 'Group Challenges & Collaboration',
-    date: 'Day 1',
-    desc: 'Students formed small teams to resolve real campus community challenges, practicing unity and creative solutioning.',
-    icon: Heart,
+    title: 'Expression & Body Language',
+    date: 'Day 2',
+    desc: 'Tested our understanding with a body language taboos quiz and performed a creative advertisement skit to practice presentation skills.',
+    icon: Sparkles,
     color: 'bg-rose-200',
   },
   {
-    title: 'More Events Loading...',
-    date: 'Ongoing',
-    desc: 'The Mpower journey continues! We are actively designing new student-driven sessions, trust-building games, and creative activities.',
-    icon: Sparkles,
+    title: 'Professionalism & Etiquette',
+    date: 'Day 3',
+    desc: 'Participated in professional resume review sessions, diary reviews of Days 1 & 2, and completed a business etiquette quiz.',
+    icon: FileText,
+    color: 'bg-amber-100',
+  },
+  {
+    title: 'Presentation & Challenges',
+    date: 'Day 3',
+    desc: 'Delivered our team logo/motto presentations, and participated in blindfolded trust walk and rope alignment activities on stage.',
+    icon: Trophy,
     color: 'bg-freshGreen',
   },
 ];

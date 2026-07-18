@@ -30,7 +30,9 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Values', href: '#values' },
     { name: 'Team', href: '#team' },
+    { name: 'Mentors', href: '#mentors' },
     { name: 'Journey', href: '#journey' },
+    { name: 'Activities', href: '#activities' },
     { name: 'Happiness Wall', href: '#happiness-wall' },
   ];
 
